@@ -1,2 +1,2 @@
-# JavaScript-BASICO
+# JavaScript BÁSICO
 Códigos básicos em JavaScript.
