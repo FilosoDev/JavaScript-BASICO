@@ -1,27 +1,38 @@
-﻿//Operadores lógicos
-//igualdade
-//console.log(5 == 3);
+﻿//Operadores relacionais
+
+//==
+//console.log(5 == 5);
 
 //===
-//console.log('5' === 5);
+//console.log("5" === 5);
 
-// != diferente
-//console.log(5 != 3);
-//console.log(5 != 5);
+//!=
+//console.log(5 != 4);
 
-//condicionais e operadores lógicos
-// > < <= >= == === != !==
-var media = 4.9;
+// > maior 
+//< menor
+//console.log(10 < 3);
 
+// >= maior ou igual
+// <= menor ou igual
+//console.log(10 <= 11);
+
+//if 
+//else 
+//if else
+var media = 4;
+var faltas = 1;
 if (media >= 7) {
-    console.log('Aprovado');
-} else if (media >= 5 && media < 7) {
-    console.log('Recuperação');
+    console.log("Aprovado");
+} else if (media >= 5 && faltas < 2) {
+    console.log("Recuperação");
 } else {
-    console.log('Reprovado');
+    console.log("Reprovado");
 }
 
-// ternário
-console.log(('10' === 10) ? 'Igual' : 'Diferente');
+//casado = false;
+//formado = true;
+//console.log(casado || formado);
 
-
+//ternario
+(media >= 7) ? 'Aprovado' : 'Reprovado';
