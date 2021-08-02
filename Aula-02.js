@@ -1,4 +1,4 @@
-﻿// Aula 02
+﻿// Aula 02 - Operadores Aritméticos (Adição, Subtração, Multiplicação, Divisão, Potenciação e MOD), pós incremento, pré incremento, pós decremento e pré decremento.
 
 // Operadores aritméticos
 var valorUm = 1;

@@ -3,9 +3,7 @@
 // Comentário de uma linha
 
 /*
-Comentário
-Comentário
-Comentário
+Aula 01 - Declarações e atribuições em variáveis, console.log, concatenação e comentários.
 */
 
 //console.log('Olá mundo!');
