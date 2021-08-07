@@ -11,5 +11,5 @@ switch (tipoUsuario) {
         console.log("Bem-vindo Secretário-assistente");
         break;
     default:
-        console.log("Bem-vindo anônimo");
+        console.log("Bem-vindo anônimo");//
 }
