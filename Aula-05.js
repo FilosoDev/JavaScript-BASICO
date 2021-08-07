@@ -1,4 +1,6 @@
-﻿var tipoUsuario = "qualquer cargo";
+﻿// Aula 05 - Comando de Seleção Switch.
+
+var tipoUsuario = "qualquer cargo";
 
 switch (tipoUsuario) {
     case "Admin":
@@ -11,5 +13,5 @@ switch (tipoUsuario) {
         console.log("Bem-vindo Secretário-assistente");
         break;
     default:
-        console.log("Bem-vindo anônimo");//
+        console.log("Bem-vindo anônimo");
 }
