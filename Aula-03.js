@@ -1,27 +1,29 @@
-﻿// Aula 03 - Condicionais, Operadores Relacionais e Operadores Lógicos.
+﻿/* Aula 03 - Condicionais, Operadores Relacionais
+   e Operadores Lógicos.
+*/
 
-//Operadores relacionais
+// Operadores relacionais
 
-//==
-//console.log(5 == 5);
+// ==
+console.log(5 == 5);
 
-//===
-//console.log("5" === 5);
+// ===
+console.log("5" === 5);
 
-//!=
-//console.log(5 != 4);
+// !=
+console.log(5 != 4);
 
 // > maior 
-//< menor
-//console.log(10 < 3);
+// < menor
+console.log(10 < 3);
 
 // >= maior ou igual
 // <= menor ou igual
-//console.log(10 <= 11);
+console.log(10 <= 11);
 
-//if 
-//else 
-//if else
+// if 
+// else 
+// else if
 var media = 4;
 var faltas = 1;
 if (media >= 7) {
@@ -32,9 +34,10 @@ if (media >= 7) {
     console.log("Reprovado");
 }
 
-//casado = false;
-//formado = true;
-//console.log(casado || formado);
+// Operadores lógicos
+casado = false;
+formado = true;
+console.log(casado || formado);
 
-//ternario
+// Ternário
 (media >= 7) ? 'Aprovado' : 'Reprovado';
